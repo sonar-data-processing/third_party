@@ -10,5 +10,5 @@ install(
 
 install(
     FILES cmake/Gnuplot.cmake
-    DESTINATION lib/cmake/sonar_toolkit/third_party
+    DESTINATION share/sonar_toolkit/${PROJECT_NAME}/cmake
 )
